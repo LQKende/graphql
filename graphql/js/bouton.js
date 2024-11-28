@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.removeItem('jwt');
 
             // Rediriger vers la page d'accueil (index.html)
-            window.location.href = '/index.html';
+            window.location.href = '/graphql/';
         });
     }
 });
