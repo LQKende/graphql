@@ -41,7 +41,7 @@ async function login(username, password) {
 
             // Redirige vers la page du tableau de bord
             console.log('Redirection vers le tableau de bord...');
-            window.location.href = './dashboard.html';
+            window.location.href = '/graphql/templates/dashboard.html';
         } else {
             throw new Error('Erreur: Le JWT est manquant dans la réponse.');
         }
