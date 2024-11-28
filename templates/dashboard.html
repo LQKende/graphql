@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de bord</title>
+    <script type="module" src="../js/dashboard.js"></script>
+    <script type="module" src="../js/jwt.js"></script>
+    <script type="module" src="../js/query.js"></script>
+    <script type="module" src="../js/bouton.js"></script>
+</head>
+<body data-page="dashboard">
+    <h2>Bienvenue sur le tableau de bord</h2>
+    <!-- Section pour afficher les données utilisateur -->
+    <div id="userData">
+        <p>Chargement des données...</p>
+    </div>
+   
+
+<div id="skills">
+    <div id="technicalSkills"></div>
+    <div id="technologies"></div>
+</div>
+
+<!-- Inclure le script -->
+<script type="module" src="../js/displayData.js"></script>
+
+    <button onclick="window.location.href='graph.html';">
+        Page des graph
+    </button>      
+    <button id="logoutButton">Déconnexion</button>
+
+</body>
+</html>
