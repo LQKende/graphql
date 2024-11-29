@@ -50,6 +50,6 @@ async function login(username, password) {
         console.error('Erreur lors de la connexion:', error);
 
         // Affiche un message d'erreur à l'utilisateur
-        document.getElementById('error').textContent = "Erreur de connexion : Identifiants incorrects.";
+        document.getElementById('error').textContent = "Erreur de connexion : Identifiants ou Mots de passe incorrects.";
     }
 }
